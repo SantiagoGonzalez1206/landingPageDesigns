@@ -5,3 +5,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.Texto {
+    width: 150px;
+    height: 150px;
+    border: solid 4px black;
+}
+.Imagenes1 {
+}
+.Imagenes2 {
+}
