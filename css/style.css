@@ -1,29 +1,62 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: 'Avenir';
+    src: url(/storage/font/MiConv.com__AvenirLTStd-Roman.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Avenir';
+}
+
+body {
+    margin: 50px;
+}
+
+
+h1 {
+    color: #252525;
+    font-size: 5rem;
+}
+
+p{
+    color: #252525;
+    filter: grayscale(80%);
+    font-size: 30px;
+    margin: 30px
+}
+
+button {
+    padding: 20px 60px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    font-size: 20px;
 }
 
 .grid1 {
-    background-color: blueviolet;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
-.grid2 {
-    width: 80%;
-    background-color: blueviolet;
-    margin: 0 auto;
+.grid2_1,
+.grid2_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
 }
 
-.Texto {
-    width: 150px;
-    height: 150px;
-    border: solid 4px black;
+img {
+    margin: 10px;
+}
 
-}
-.Imagenes1 {
-}
-.Imagenes2 {
-}
