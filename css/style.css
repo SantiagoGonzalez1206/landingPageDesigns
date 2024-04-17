@@ -21,6 +21,7 @@ h1 {
     color: #000000;
     font-size: 70px;
     font-family: 'Playfair';
+    width: 70%;
 }
 
 
@@ -28,23 +29,33 @@ p{
     color: #252525;
     font-size: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
-    padding-right: 120px;
+    margin-bottom: 40px;
     font-family: 'Worksans';
+    width: 60%;
 }
 
-button {
+.button1 {
     padding: 20px 60px;
-    background-color: #252525;
+    background-color: #050505;
     color: white;
     border: none;
+    border-radius: 20px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.button2 {
+    padding: 20px 60px;
+    background-color: white;
+    color: #050505;
+    border: 1px solid;
     border-radius: 20px;
     margin-right: auto;
     font-size: 20px;
 }
 
 body {
-    margin: 50px;
+    margin: 80px;
 }
 
 main {
@@ -54,16 +65,36 @@ main {
     width: 50%;
 }
 .circle {
+    margin-bottom: 30px;
 }
 .grid1 {
+    margin-bottom: 50px;
 }
 .imagen {
-    width: 30%;
+    width: 50%;
     float: right;
 }
-.img3 {
+
+.imagen img{
+    width: 70%;
 }
-.grid3 {
+
+.grid2 {
+    display:flex;
+    border: 1px solid;
+    margin-top: 100px ;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    padding-left: 40px;
+    width: 80%;
+    height: 15%;
 }
-.img2 {
+
+.grid2 p{
+    margin: 0;
+}
+
+.grid2 div{
+    width: 30%;
 }
