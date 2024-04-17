@@ -1,7 +1,69 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: 'Playfair';
+    src: url(/storage/font/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Worksans';
+    src: url(/storage/font/WorkSans-Regular.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+
+h1 {
+    color: #000000;
+    font-size: 70px;
+    font-family: 'Playfair';
+}
+
+
+p{
+    color: #252525;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 120px;
+    font-family: 'Worksans';
+}
+
+button {
+    padding: 20px 60px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+body {
+    margin: 50px;
+}
+
+main {
+    display: flex;
+}
+.up {
+    width: 50%;
+}
+.circle {
+}
+.grid1 {
+}
+.imagen {
+    width: 30%;
+    float: right;
+}
+.img3 {
+}
+.grid3 {
+}
+.img2 {
 }
