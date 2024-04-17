@@ -5,3 +5,86 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(/storage/font/MiConv.com__AvenirLTStd-Roman.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Avenir';
+}
+
+body {
+    margin-top: 90px;
+}
+
+
+h1 {
+    color: #252525;
+    font-size: 90px;
+}
+
+p{
+    color: #252525c0;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+button {
+    padding: 15px 50px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.grid1 {
+    width: 50%;
+    height: auto;
+}
+
+.grid2 {
+    flex-direction: column;
+    width: 50%;
+    height: 44%;
+    margin-left: 150px;
+}
+
+.main {
+    display: flex;
+}
+
+
+img {
+    width: 100%;
+}
+
+.up {
+    margin-bottom: 12rem;
+}
+
+.up p {
+    width: 47%;
+}
+
+.down {
+    width: 50%;
+}
+
+.down p {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #25252555;
+    font-size: 50px;
+
+}
