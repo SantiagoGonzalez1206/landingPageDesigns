@@ -1,7 +1,72 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url(/storage/font/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'WorkSans-Light';
+    src: url(/storage/font/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: 'WorkSans-Medium';
+    src: url(/storage/font/WorkSans-Medium.ttf);
+}
 *{
+    background: #AB2706;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    margin-left: 60px;
+    margin-top: 60px;
+    color: white;
+}
+
+
+h1 {
+    font-family: 'WorkSans-Bold';
+    font-size: 90px;
+}
+
+p{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-family: 'WorkSans-Light';
+    width: 100%;
+}
+
+button {
+    padding: 25px 80px;
+    background-color: #E5B94B;
+    color: #080808;
+    border: none;
+    border-radius: 40px;
+    margin-right: auto;
+    font-size: 37px;
+    font-family: 'WorkSans-Medium';
+}
+
+.grid1 {
+    width: 50%;
+    height: auto;
+}
+
+.grid2 {
+    flex-direction: column;
+    width: 30%;
+    height: 44%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.main {
+    display: flex;
+}
+
+
+img {
+    width: 77.7%;
 }
