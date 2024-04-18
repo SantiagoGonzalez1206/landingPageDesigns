@@ -1,7 +1,41 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: "Poppins";
+    src: url(../storage/font/);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #C8CCCF, #97A3A3);
+}
+
+button {
+    padding: 15px 50px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.up {
+    display: flex;
+}
+.text {
+}
+.container__img1 {
+    position: relative;
+}
+.down {
+    display: flex;
+}
+.container__img2 {
+}
+.container__text {
 }
