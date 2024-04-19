@@ -14,14 +14,37 @@ body{
     background-image: linear-gradient(to bottom right, #C8CCCF, #97A3A3);
 }
 
+h1 {
+    color: #252525;
+    font-size: 70px;
+}
+
+p{
+    color: #252525;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 120px;
+    
+}
+
 button {
-    padding: 15px 50px;
+    padding: 20px 60px;
     background-color: #252525;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-right: auto;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    height: 45%;
+    margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 .up {
