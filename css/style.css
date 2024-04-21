@@ -1,15 +1,81 @@
 @import url(variables.css);
 
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../storage/font/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../storage/font/Poppins-Bold.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins-Regular";
+}
+
+body{
+  background: #2F2F2F;
+}
+
+main{
+  display: flex;
+  margin: 50px 0px 50px 50px;
+}
+
+.text{
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 28px;
+}
+
+.text1{
+  color: #FEC3C7;
+}
+
+.text2{
+  color: #9AD7F3;
+}
+
+.text3{
+  color: #6BDFDA;
+  margin-bottom: 10px;
+}
+
+h1{
+  font-size: 50px;
+  font-family: "Poppins-Bold";
+}
+
+p{
+  color: white;
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 10px 30px;
+  background-color: #ffffff;
+  color: #080808;
+  border: none;
+  border-radius: 40px;
+  margin-right: auto;
+  font-size: 15px;
+}
+
+.container-imgs{
+  width: 60%;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     width: 464px;
+    margin-top: auto;
+    margin-bottom: auto;
 
   }
   
