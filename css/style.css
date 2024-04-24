@@ -1,7 +1,92 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Light";
+    src: url(../storage/font/Poppins-Light.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins-Regular";
+}
+
+body{
+    display: flex;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 33%;
+    margin-left: 33%;
+    color: #2C1001;
+}
+
+h1 {    
+    font-size: 56px;
+    width: 500px;
+    font-family: "Poppins-Bold";
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-family: "Poppins-Light";
+}
+
+button {
+    padding: 20px 40px;
+    background-color: #FFDE81;
+    color: #2C1001;
+    border: none;
+    border-radius: 40px;
+    margin-right: auto;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.grid2{
+    background: #49342F;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-left: 260px;
+    width: 670px;
+    height: 160px;
+    position: absolute;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item1 img{
+    width: 30px;
+    margin: 20px 0 20px 0;
+}
+
+.item1 small{
+    width: 60%;
+}
+
+.image{
+    margin-right: 16%;
+    width: 40%;
 }
