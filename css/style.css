@@ -1,7 +1,57 @@
 @import url(variables.css);
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url(/storage/font/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(/storage/font/Lato-Regular.ttf);
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lato-Regular';
+}
+
+body{
+    background-image: url(../storage/img/background.svg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+h1 {
+    color: black;
+    font-size: 5rem;
+    font-family: 'Lato-Bold';
+}
+
+p{
+    color: black;
+    filter: grayscale(80%);
+    font-size: 25px;
+    margin: 30px
+}
+
+button {
+    padding: 20px 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 38%;
+    height: 40%;
+    margin: auto;
+    margin-top: 8%;
 }
