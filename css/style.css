@@ -1,7 +1,65 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: 'Bitter';
+    src: url(/storage/font/Bitter-Bold.ttf);
+}
+@font-face {
+    font-family: 'Mono';
+    src: url(/storage/font/SpaceMono-Regular.ttf);
+}
 *{
-    padding: 0;
+    padding: 10;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Mono';
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #F8D696, #EABF61);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #252525;
+    font-size: 80px;
+    font-family: 'Bitter';
+}
+
+p{
+    color: #252525;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 95%;
+    
+}
+
+button {
+    padding: 20px 60px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    height: 45%;
+    margin-bottom: 50px;
+    margin-top: 130px;
+    margin-left: 10%;
+}
+
+.grid1 img{
+    width: 120px;
+    margin-bottom: 60px;
+}
+
+.img img{
+    width: 94%;
 }
