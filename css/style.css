@@ -1,7 +1,111 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: "Lato-Light";
+    src: url(../storage/font/Lato-Light.ttf);
+}
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(../storage/font/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../storage/font/Lato-Regular.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Lato-Bold";
+}
+
+body{
+    background-color: #F8F8F8;
+    margin: 150px;
+}
+
+.up{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 160px;
+}
+
+
+p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-right: 370px;
+    font-family: "Lato-Regular";
+}
+
+button {
+    padding: 20px 60px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.si{
+    margin-left: 50px;
+}
+
+.smallText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.content{
+    display: flex;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.no{
+    width: 120px;
+    margin-left: auto;
+}
+
+.nona{
+    width: 500px;
+}
+
+.down{
+    display: flex;
+    margin: 50px;
+}
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    justify-content: center;
+    padding: 0 90px 0 90px
+}
+
+.containers1{
+    background-color: #E2E7F1;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    padding: 0 90px 0 90px;
+}
+
+small{
+    margin-top: 10px;
+    font-family: "Lato-Light";
 }
