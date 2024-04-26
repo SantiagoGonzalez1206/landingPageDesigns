@@ -1,7 +1,96 @@
 @import url(variables.css);
-
+@font-face {
+    font-family: "bold";
+    src: url(../storage/font/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "light";
+    src: url(../storage/font/Lato-Light.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    max-height: 1024px;
+    background-image: url(../storage/img/bg.svg);
+    background-size: 95%; 
+    background-repeat: no-repeat;
+    background-position: 20% 20% ; 
+    background-color: #0D0F1B;
+    margin-left: 120px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 90px;
+    width: 70%;
+    font-family: "bold";
+}
+
+.grid1 p{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+    font-family: "regular";
+}
+
+button {
+    padding: 20px 60px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    height: 45%;
+    margin-bottom: 100px;
+    margin-top: 140px;
+
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: white;
+    width: 1500px;
+}
+
+.container {
+    width: 492px;
+    height: 232px;
+    padding: 44px 53px 54px 44px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    backdrop-filter: blur(32px);
+    display: flex;
+    flex-direction: column;
+    gap : 16px;
+}
+
+.container p{
+    font-size: 27px;
+    font-family: "light";
+}
+
+.container h2{
+    font-size: 35px;
+    font-family: "bold";
 }
